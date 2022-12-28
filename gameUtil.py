@@ -158,7 +158,7 @@ def checkRoyalFlush(cards):#strongest hand
                     return True, suit_arr[i][j : j + 5]
     return False, []
 def cardToNumberValue(cards):# compare two hand by card value
-    return cards[0][0] * (13 ** 5) + cards[1][0] * (13 ** 5) + cards[2][0] * (13 ** 5) + cards[3][0] * (13 ** 5) + cards[4][0] * (13 ** 5)
+    return cards[0][0] * (13 ** 5) + cards[1][0] * (13 ** 4) + cards[2][0] * (13 ** 3) + cards[3][0] * (13 ** 2) + cards[4][0] * (13 ** 1)
 def checkHand(player_card):# rank every players hand # every hand is sorted (playerindex, card) return the index of the player won
     winningplayer = []
     if(len(winningplayer) == 0):
