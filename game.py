@@ -44,7 +44,7 @@ init_deck()
 if DEBUG:
     print("DECK INITIALIZED")
 round_information = {
-    'stage' : 0, # 0 = flop 1 = turn 2 = river
+    'stage' : 0, # 0 = preflop 1 = flop 2 = turn 3 = river
     'player money' : [STARTING_PLAYER_MONEY for i in range(NUM_PLAYER)],
     'player bets' : [0 for i in range(NUM_PLAYER)],
     'player playing' : [True for i in range(NUM_PLAYER)],
