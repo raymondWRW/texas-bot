@@ -4,10 +4,10 @@ import random
 import copy
 import gameUtil
 from gameUtil import DEBUG, STARTING_PLAYER_MONEY, SMALL_BLIND_BET_MONEY, BIG_BLIND_BET_MONEY, BET_LIMIT_CEILING, ROUND_NUMBER
-players = [allInBot.allInBot(0), 
+players = [easyBot.easyBot(0), 
            easyBot.easyBot(1),
-           easyBot.easyBot(2), 
-           easyBot.easyBot(3)]
+           allInBot.allInBot(2), 
+           allInBot.allInBot(3)]
 SUIT_DICT = {
     0 : "♤",
     1 : "♡",
@@ -102,10 +102,10 @@ for round_number in range(ROUND_NUMBER):
                 print(f"the current community card revealed is {cards_to_player_cards(round_information['community card'])}")
             if sum(round_information['player playing']) == 1: # only one player playing
                 winner = 0
-                for i in round_information['player playing']:
+                for i in range(len(round_information['player playing'])):
                     if round_information['player playing'][i]:
                         winner = i
-                round_information['player money'][i] += sum(round_information['player bets'])
+                round_information['player money'][winner] += sum(round_information['player bets'])
                 if DEBUG:
                     print(f"player {winner + 1} wins as everyone else folds")
                 break
@@ -113,14 +113,15 @@ for round_number in range(ROUND_NUMBER):
                 roundonce = 0
                 round_information['stage'] += 1
                 player_betting_index = small_blind_index
-                round_information['community card'] = copy.copy(community_card[0: 2 + round_information['stage']])
                 if round_information['stage'] == 4:
                     break
+                round_information['community card'] = copy.copy(community_card[0: 2 + round_information['stage']])
                 if DEBUG:
                     print(f"advances to round {round_information['stage']}")
                 continue
         elif round_information['player playing'][player_betting_index]:
             amount = players[player_betting_index].bet(round_information_to_player_information())
+            amount = max(amount, 0)
             if DEBUG:
                 if amount + round_information['player bets'][player_betting_index] < max(round_information['player bets']):
                     print(f"player {player_betting_index + 1} folds")
