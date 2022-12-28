@@ -145,7 +145,7 @@ def checkRoyalFlush(cards):#strongest hand
         suit_arr[cards[i][1]].append(cards[i])
     for i in range(len(suit_arr)):
         if len(suit_arr[i]) >= 5:
-            for i in range(len(suit_arr[i]) - 4):
+            for j in range(len(suit_arr[i]) - 4):
                 if(suit_arr[i][i][0] == 
                     suit_arr[i][i + 1][0] + 1 == 
                     suit_arr[i][i + 2][0] + 2 == 
