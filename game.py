@@ -127,9 +127,9 @@ for round_number in range(ROUND_NUMBER):
                 elif amount + round_information['player bets'][player_betting_index] == max(round_information['player bets']):
                     print(f"player {player_betting_index + 1} calls")
                 else:
-                    print(f"player {player_betting_index + 1} raises to {min(amount + round_information['player bets'][player_betting_index], BET_LIMIT_CEILING[round_information['stage']])}")
-            round_information['player money'][player_betting_index] -= min(amount, BET_LIMIT_CEILING[round_information['stage']] - round_information['player bets'][player_betting_index])
-            round_information['player bets'][player_betting_index] += min(amount, BET_LIMIT_CEILING[round_information['stage']] - round_information['player bets'][player_betting_index])
+                    print(f"player {player_betting_index + 1} raises to {min(amount + round_information['player bets'][player_betting_index], BET_LIMIT_CEILING)}")
+            round_information['player money'][player_betting_index] -= min(amount, BET_LIMIT_CEILING - round_information['player bets'][player_betting_index])
+            round_information['player bets'][player_betting_index] += min(amount, BET_LIMIT_CEILING - round_information['player bets'][player_betting_index])
             if round_information['player bets'][player_betting_index] != max(round_information['player bets']):
                 round_information['player playing'][player_betting_index] = False
         else:

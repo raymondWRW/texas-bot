@@ -2,7 +2,7 @@ DEBUG = True
 STARTING_PLAYER_MONEY = 0
 SMALL_BLIND_BET_MONEY = 10
 BIG_BLIND_BET_MONEY = 20
-BET_LIMIT_CEILING = [50, 100, 200, 500]
+BET_LIMIT_CEILING = 1000
 ROUND_NUMBER = 10
 # hand comparison function
 def checkHighCard(cards):
@@ -43,8 +43,9 @@ def checkTwoPair(cards):
         if(not used[i]):
             bestHand.append(cards[i])
             break
-    if(len(bestHand) == 5):
-        print("two pairs")
+    if DEBUG:
+        if(len(bestHand) == 5):
+            print("two pairs")
     return len(bestHand) == 5, bestHand
 def checkThreeOfAKind(cards):
     bestHand = []
@@ -65,8 +66,9 @@ def checkThreeOfAKind(cards):
             count += 1
             if(count == 2):
                 break
-    if(len(bestHand) == 5):
-        print("three of a kind")
+    if DEBUG:
+        if(len(bestHand) == 5):
+            print("three of a kind")
     return len(bestHand) == 5, bestHand
 def checkStraight(cards):
     possibleHand = []
@@ -146,14 +148,14 @@ def checkRoyalFlush(cards):#strongest hand
     for i in range(len(suit_arr)):
         if len(suit_arr[i]) >= 5:
             for j in range(len(suit_arr[i]) - 4):
-                if(suit_arr[i][i][0] == 
-                    suit_arr[i][i + 1][0] + 1 == 
-                    suit_arr[i][i + 2][0] + 2 == 
-                    suit_arr[i][i + 3][0] + 3 == 
-                    suit_arr[i][i + 4][0] + 4):
+                if(suit_arr[i][j][0] == 
+                    suit_arr[i][j + 1][0] + 1 == 
+                    suit_arr[i][j + 2][0] + 2 == 
+                    suit_arr[i][j + 3][0] + 3 == 
+                    suit_arr[i][j + 4][0] + 4):
                     if DEBUG:
                         print("straight flush")
-                    return True, suit_arr[i][i : i + 5]
+                    return True, suit_arr[i][j : j + 5]
     return False, []
 def cardToNumberValue(cards):# compare two hand by card value
     return cards[0][0] * (13 ** 5) + cards[1][0] * (13 ** 5) + cards[2][0] * (13 ** 5) + cards[3][0] * (13 ** 5) + cards[4][0] * (13 ** 5)
