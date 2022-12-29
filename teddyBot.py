@@ -28,9 +28,10 @@ class teddyBot():
             return max(data['player bets']) - data['player bets'][self.player_index]
 
         elif data['stage']==1:  # 三张牌:
-            self.deck.remove(data['community card'][0])
-            self.deck.remove(data['community card'][1])
-            self.deck.remove(data['community card'][2])
+            if data['community card'][0] in self.deck:
+                self.deck.remove(data['community card'][0])
+                self.deck.remove(data['community card'][1])
+                self.deck.remove(data['community card'][2])
             cards = data['community card'] + self.mycards
             self.value=self.Valuecards(cards)
             won=0
