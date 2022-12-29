@@ -50,7 +50,8 @@ class teddyBot():
             return 0                # fold
 
         elif data['stage']==2:  # turn:
-            self.deck.remove(data['community card'][3])
+            if data['community card'][3] in self.deck:
+                self.deck.remove(data['community card'][3])
             cards = data['community card'] + self.mycards
             self.value=self.Valuecards(cards)
             won=0
@@ -69,7 +70,8 @@ class teddyBot():
             return 0                # fold
 
         elif data['stage']==3:  # river:
-            self.deck.remove(data['community card'][4])
+            if data['community card'][4] in self.deck:
+                self.deck.remove(data['community card'][4])
             cards = data['community card'] + self.mycards
             self.value=self.Valuecards(cards)
             won=0

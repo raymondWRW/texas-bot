@@ -4,6 +4,8 @@ import allInBot
 import easyBot
 import sunnyBot
 import kiBot
+import teddyBot
+import raymondBot
 import functools
 import random
 import copy
@@ -18,6 +20,8 @@ if os.environ["USE_COMMAND_LINE"] == "True":
         'easyBot': easyBot.easyBot,
         'allInBot': allInBot.allInBot,
         'sunnyBot': sunnyBot.sunnyBot,
+        'teddyBot': teddyBot.teddyBot,
+        'raymondBot': raymondBot.raymondBot,
         'kiBot-basic': functools.partial(kiBot.kiBot, strategy='basic'),
         'kiBot-basicp': functools.partial(kiBot.kiBot, strategy='basicp'),
         'kiBot-basicpp': functools.partial(kiBot.kiBot, strategy='basicpp'),
@@ -96,7 +100,7 @@ for round_number in range(ROUND_NUMBER):
     random.shuffle(deck)
     for i in range(NUM_PLAYER):
         players[i].starting_hand([deck[i * 2], deck[i * 2 + 1]])
-    community_card = copy.copy(deck[NUM_PLAYER * 2: NUM_PLAYER * 2 + 5])
+    community_card = copy.deepcopy(deck[NUM_PLAYER * 2: NUM_PLAYER * 2 + 5])
     #round_information
     round_information['stage'] = 0
     round_information['player bets'] = [0 for i in range(NUM_PLAYER)]

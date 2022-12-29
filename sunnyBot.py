@@ -63,7 +63,7 @@ class sunnyBot():
                                             level =0
        # return max(max(data['player bets']) - data['player bets'][self.player_index], 1000)
         if (level < 3):
-            return 0
+            return -100
         if level >8:
             return 10000
         return max(level*50 - data['player bets'][self.player_index],max(data['player bets']))

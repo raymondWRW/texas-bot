@@ -1,0 +1,2106 @@
+DECK INITIALIZED
+ROUND 1 STARTING
+player's money: [0, 0, 0]
+Player 1 cards are  ['2♧', 'J♧']
+Player 2 cards are  ['7♤', 'J♤']
+Player 3 cards are  ['K♢', '6♡']
+the community cards are ['9♤', '2♢', '5♤', '7♡', '6♧']
+Player 1 card is the small blind
+kiBot: hand_value =  -0.14027149321266968 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 2 STARTING
+player's money: [-10, 10, 0]
+Player 1 cards are  ['9♧', 'Q♤']
+Player 2 cards are  ['5♤', '2♤']
+Player 3 cards are  ['6♢', '3♢']
+the community cards are ['3♤', '3♡', 'J♤', 'K♢', 'K♡']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['3♤', '3♡', 'J♤']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['3♤', '3♡', 'J♤', 'K♢']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['3♤', '3♡', 'J♤', 'K♢', 'K♡']
+player3 wins
+########################################################################
+ROUND 3 STARTING
+player's money: [-10, -10, 20]
+Player 1 cards are  ['Q♧', 'Q♤']
+Player 2 cards are  ['9♡', '10♧']
+Player 3 cards are  ['Q♢', 'J♢']
+the community cards are ['K♡', '2♧', '7♤', '10♤', '7♡']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  0.9095022624434389 stage =  0
+player 3 raises to 1000
+player 1 folds
+player 2 calls
+the current community card revealed is []
+advances to round 1
+player 3 calls
+player 2 calls
+the current community card revealed is ['K♡', '2♧', '7♤']
+advances to round 2
+player 3 calls
+player 2 calls
+the current community card revealed is ['K♡', '2♧', '7♤', '10♤']
+advances to round 3
+player 3 calls
+player 2 calls
+the current community card revealed is ['K♡', '2♧', '7♤', '10♤', '7♡']
+player2 wins
+########################################################################
+ROUND 4 STARTING
+player's money: [-30, 1010, -980]
+Player 1 cards are  ['4♤', '6♢']
+Player 2 cards are  ['5♡', '8♡']
+Player 3 cards are  ['A♧', '3♤']
+the community cards are ['10♡', '7♧', '8♤', '6♧', '7♢']
+Player 1 card is the small blind
+kiBot: hand_value =  0.4766214177978884 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 5 STARTING
+player's money: [-40, 1020, -980]
+Player 1 cards are  ['4♡', 'Q♤']
+Player 2 cards are  ['2♡', '10♢']
+Player 3 cards are  ['6♢', '5♡']
+the community cards are ['5♧', 'J♢', '2♢', '7♧', '10♤']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['5♧', 'J♢', '2♢']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['5♧', 'J♢', '2♢', '7♧']
+advances to round 3
+player 2 raises to 40
+kiBot: hand_value =  0.5363636363636364 stage =  5
+player 3 folds
+the current community card revealed is ['5♧', 'J♢', '2♢', '7♧', '10♤']
+player 2 wins as everyone else folds
+########################################################################
+ROUND 6 STARTING
+player's money: [-40, 1040, -1000]
+Player 1 cards are  ['K♡', 'Q♤']
+Player 2 cards are  ['J♤', '6♤']
+Player 3 cards are  ['10♧', '5♢']
+the community cards are ['A♢', '7♢', '10♢', '6♢', '7♤']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  -0.8491704374057315 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 calls
+player 2 calls
+the current community card revealed is ['A♢', '7♢', '10♢']
+advances to round 2
+player 1 calls
+player 2 calls
+the current community card revealed is ['A♢', '7♢', '10♢', '6♢']
+advances to round 3
+player 1 raises to 150
+player 2 folds
+the current community card revealed is ['A♢', '7♢', '10♢', '6♢', '7♤']
+player 1 wins as everyone else folds
+########################################################################
+ROUND 7 STARTING
+player's money: [-10, 1020, -1010]
+Player 1 cards are  ['2♤', '5♧']
+Player 2 cards are  ['6♢', '6♤']
+Player 3 cards are  ['K♤', '7♢']
+the community cards are ['A♧', '7♧', '3♡', '2♧', 'J♧']
+Player 1 card is the small blind
+kiBot: hand_value =  -0.19004524886877827 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 8 STARTING
+player's money: [-20, 1030, -1010]
+Player 1 cards are  ['3♡', 'J♢']
+Player 2 cards are  ['4♢', '2♧']
+Player 3 cards are  ['A♢', 'J♤']
+the community cards are ['A♤', '8♡', '10♤', '2♡', '7♢']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['A♤', '8♡', '10♤']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['A♤', '8♡', '10♤', '2♡']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['A♤', '8♡', '10♤', '2♡', '7♢']
+player3 wins
+########################################################################
+ROUND 9 STARTING
+player's money: [-20, 1010, -990]
+Player 1 cards are  ['J♤', 'A♤']
+Player 2 cards are  ['10♧', '4♡']
+Player 3 cards are  ['4♧', 'Q♢']
+the community cards are ['K♧', 'A♢', '3♡', '4♤', '8♤']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  -0.40120663650075417 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 raises to 200
+player 2 folds
+the current community card revealed is ['K♧', 'A♢', '3♡']
+player 1 wins as everyone else folds
+########################################################################
+ROUND 10 STARTING
+player's money: [10, 990, -1000]
+Player 1 cards are  ['Q♤', '10♤']
+Player 2 cards are  ['10♡', '8♢']
+Player 3 cards are  ['A♤', '9♢']
+the community cards are ['5♡', '6♢', '2♢', '6♤', '2♡']
+Player 1 card is the small blind
+kiBot: hand_value =  0.2368024132730015 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 11 STARTING
+player's money: [0, 1000, -1000]
+Player 1 cards are  ['8♢', '8♧']
+Player 2 cards are  ['3♢', '6♡']
+Player 3 cards are  ['J♡', '9♡']
+the community cards are ['A♡', '10♤', 'K♢', 'K♤', 'J♢']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['A♡', '10♤', 'K♢']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['A♡', '10♤', 'K♢', 'K♤']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['A♡', '10♤', 'K♢', 'K♤', 'J♢']
+player3 wins
+########################################################################
+ROUND 12 STARTING
+player's money: [0, 980, -980]
+Player 1 cards are  ['2♡', '3♡']
+Player 2 cards are  ['7♡', '10♢']
+Player 3 cards are  ['9♡', '4♡']
+the community cards are ['J♡', '6♡', '10♡', '8♢', '8♧']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  -0.5460030165912518 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 raises to 1000
+player 2 calls
+the current community card revealed is ['J♡', '6♡', '10♡']
+advances to round 2
+player 1 raises to 1000
+player 2 calls
+the current community card revealed is ['J♡', '6♡', '10♡', '8♢']
+advances to round 3
+player 1 raises to 1000
+player 2 calls
+the current community card revealed is ['J♡', '6♡', '10♡', '8♢', '8♧']
+player1 wins
+########################################################################
+ROUND 13 STARTING
+player's money: [1010, -20, -990]
+Player 1 cards are  ['J♡', '4♧']
+Player 2 cards are  ['3♧', 'Q♤']
+Player 3 cards are  ['3♡', '2♢']
+the community cards are ['Q♧', '8♧', '7♡', '10♡', '5♤']
+Player 1 card is the small blind
+kiBot: hand_value =  -0.25339366515837103 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 14 STARTING
+player's money: [1000, -10, -990]
+Player 1 cards are  ['6♧', 'A♤']
+Player 2 cards are  ['7♤', 'K♧']
+Player 3 cards are  ['3♧', '10♢']
+the community cards are ['9♤', 'K♢', '2♡', '2♧', 'Q♢']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 raises to 40
+kiBot: hand_value =  0.25624421831637373 stage =  3
+player 3 folds
+the current community card revealed is ['9♤', 'K♢', '2♡']
+player 2 wins as everyone else folds
+########################################################################
+ROUND 15 STARTING
+player's money: [1000, 10, -1010]
+Player 1 cards are  ['5♤', '4♢']
+Player 2 cards are  ['10♧', 'J♤']
+Player 3 cards are  ['8♢', '9♧']
+the community cards are ['3♡', '7♤', '5♢', '8♧', '6♧']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  0.526395173453997 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 raises to 150
+player 2 folds
+the current community card revealed is ['3♡', '7♤', '5♢']
+player 1 wins as everyone else folds
+########################################################################
+ROUND 16 STARTING
+player's money: [1030, -10, -1020]
+Player 1 cards are  ['A♤', '10♧']
+Player 2 cards are  ['6♧', '4♡']
+Player 3 cards are  ['J♧', '6♤']
+the community cards are ['Q♡', '8♢', '5♡', 'A♡', 'Q♢']
+Player 1 card is the small blind
+kiBot: hand_value =  -0.693815987933635 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 17 STARTING
+player's money: [1020, 0, -1020]
+Player 1 cards are  ['A♤', '7♤']
+Player 2 cards are  ['6♤', '8♡']
+Player 3 cards are  ['2♧', '6♡']
+the community cards are ['10♢', '7♡', 'K♤', '8♧', '5♧']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['10♢', '7♡', 'K♤']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['10♢', '7♡', 'K♤', '8♧']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['10♢', '7♡', 'K♤', '8♧', '5♧']
+player2 wins
+########################################################################
+ROUND 18 STARTING
+player's money: [1020, 20, -1040]
+Player 1 cards are  ['10♤', 'Q♢']
+Player 2 cards are  ['9♢', '8♢']
+Player 3 cards are  ['7♧', 'J♧']
+the community cards are ['K♡', 'K♧', '6♢', 'Q♤', '8♤']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  0.11312217194570136 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 raises to 200
+player 2 folds
+the current community card revealed is ['K♡', 'K♧', '6♢']
+player 1 wins as everyone else folds
+########################################################################
+ROUND 19 STARTING
+player's money: [1050, 0, -1050]
+Player 1 cards are  ['Q♤', '5♧']
+Player 2 cards are  ['J♧', '10♢']
+Player 3 cards are  ['2♧', 'K♤']
+the community cards are ['4♡', 'K♡', '3♢', '5♤', '7♧']
+Player 1 card is the small blind
+kiBot: hand_value =  -0.01809954751131222 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 20 STARTING
+player's money: [1040, 10, -1050]
+Player 1 cards are  ['5♢', 'K♤']
+Player 2 cards are  ['3♡', '10♧']
+Player 3 cards are  ['K♢', 'A♢']
+the community cards are ['3♤', 'A♡', '6♧', 'K♡', '5♡']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['3♤', 'A♡', '6♧']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['3♤', 'A♡', '6♧', 'K♡']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['3♤', 'A♡', '6♧', 'K♡', '5♡']
+player3 wins
+########################################################################
+ROUND 21 STARTING
+player's money: [1040, -10, -1030]
+Player 1 cards are  ['8♧', '5♢']
+Player 2 cards are  ['Q♤', 'K♡']
+Player 3 cards are  ['4♢', '7♧']
+the community cards are ['8♢', 'J♧', 'Q♢', '7♡', '6♤']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  -0.55052790346908 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 raises to 150
+player 2 raises to 300
+player 1 raises to 450
+player 2 raises to 900
+player 1 raises to 1000
+player 2 raises to 1000
+the current community card revealed is ['8♢', 'J♧', 'Q♢']
+advances to round 2
+player 1 raises to 1000
+player 2 raises to 1000
+the current community card revealed is ['8♢', 'J♧', 'Q♢', '7♡']
+advances to round 3
+player 1 raises to 1000
+player 2 raises to 1000
+the current community card revealed is ['8♢', 'J♧', 'Q♢', '7♡', '6♤']
+player2 wins
+########################################################################
+ROUND 22 STARTING
+player's money: [40, 1000, -1040]
+Player 1 cards are  ['8♢', '3♧']
+Player 2 cards are  ['5♧', 'A♡']
+Player 3 cards are  ['7♡', '6♡']
+the community cards are ['4♧', '5♢', '10♡', 'K♧', '10♤']
+Player 1 card is the small blind
+kiBot: hand_value =  0.6425339366515838 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 23 STARTING
+player's money: [30, 1010, -1040]
+Player 1 cards are  ['A♤', 'K♧']
+Player 2 cards are  ['2♡', '9♡']
+Player 3 cards are  ['6♧', '10♧']
+the community cards are ['7♧', 'A♡', '5♡', '6♢', '7♢']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['7♧', 'A♡', '5♡']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['7♧', 'A♡', '5♡', '6♢']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['7♧', 'A♡', '5♡', '6♢', '7♢']
+player3 wins
+########################################################################
+ROUND 24 STARTING
+player's money: [30, 990, -1020]
+Player 1 cards are  ['K♡', '7♧']
+Player 2 cards are  ['9♧', 'A♡']
+Player 3 cards are  ['A♧', '10♢']
+the community cards are ['3♡', '6♤', '9♢', '3♢', 'A♤']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  0.5610859728506787 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 calls
+player 2 raises to 40
+player 1 folds
+the current community card revealed is ['3♡', '6♤', '9♢']
+player 2 wins as everyone else folds
+########################################################################
+ROUND 25 STARTING
+player's money: [10, 1020, -1030]
+Player 1 cards are  ['4♢', '10♢']
+Player 2 cards are  ['A♡', '4♡']
+Player 3 cards are  ['7♧', '8♢']
+the community cards are ['6♧', '9♧', '3♡', '6♤', 'J♤']
+Player 1 card is the small blind
+kiBot: hand_value =  0.31221719457013575 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 26 STARTING
+player's money: [0, 1030, -1030]
+Player 1 cards are  ['4♧', 'A♡']
+Player 2 cards are  ['2♧', 'J♧']
+Player 3 cards are  ['A♧', 'J♤']
+the community cards are ['Q♤', '8♧', '10♡', '6♧', '7♡']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['Q♤', '8♧', '10♡']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['Q♤', '8♧', '10♡', '6♧']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['Q♤', '8♧', '10♡', '6♧', '7♡']
+player3 wins
+########################################################################
+ROUND 27 STARTING
+player's money: [0, 1010, -1010]
+Player 1 cards are  ['Q♢', '4♢']
+Player 2 cards are  ['6♢', '10♧']
+Player 3 cards are  ['7♧', '6♤']
+the community cards are ['9♤', '2♤', '5♡', 'K♧', 'A♢']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  0.20361990950226244 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 calls
+player 2 calls
+the current community card revealed is ['9♤', '2♤', '5♡']
+advances to round 2
+player 1 calls
+player 2 calls
+the current community card revealed is ['9♤', '2♤', '5♡', 'K♧']
+advances to round 3
+player 1 calls
+player 2 calls
+the current community card revealed is ['9♤', '2♤', '5♡', 'K♧', 'A♢']
+player1 wins
+########################################################################
+ROUND 28 STARTING
+player's money: [30, 990, -1020]
+Player 1 cards are  ['7♢', '7♤']
+Player 2 cards are  ['10♡', '10♧']
+Player 3 cards are  ['7♡', '5♧']
+the community cards are ['6♤', 'A♧', '3♡', 'Q♡', '2♡']
+Player 1 card is the small blind
+kiBot: hand_value =  -0.28355957767722473 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 29 STARTING
+player's money: [20, 1000, -1020]
+Player 1 cards are  ['5♢', 'Q♢']
+Player 2 cards are  ['9♤', '7♧']
+Player 3 cards are  ['K♤', '4♡']
+the community cards are ['7♡', '3♧', '7♢', '9♧', '3♡']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 raises to 40
+kiBot: hand_value =  0.5559666975023126 stage =  3
+player 3 folds
+the current community card revealed is ['7♡', '3♧', '7♢']
+player 2 wins as everyone else folds
+########################################################################
+ROUND 30 STARTING
+player's money: [20, 1020, -1040]
+Player 1 cards are  ['9♢', '7♢']
+Player 2 cards are  ['K♢', 'K♤']
+Player 3 cards are  ['5♧', '7♡']
+the community cards are ['7♤', 'J♧', '7♧', '3♡', '3♧']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  -0.28355957767722473 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 raises to 350
+player 2 raises to 700
+player 1 raises to 1000
+player 2 raises to 1000
+the current community card revealed is ['7♤', 'J♧', '7♧']
+advances to round 2
+player 1 raises to 1000
+player 2 raises to 1000
+the current community card revealed is ['7♤', 'J♧', '7♧', '3♡']
+advances to round 3
+player 1 raises to 1000
+player 2 calls
+the current community card revealed is ['7♤', 'J♧', '7♧', '3♡', '3♧']
+player1 wins
+########################################################################
+ROUND 31 STARTING
+player's money: [1030, 20, -1050]
+Player 1 cards are  ['7♤', '7♢']
+Player 2 cards are  ['8♡', 'K♡']
+Player 3 cards are  ['A♤', '10♧']
+the community cards are ['Q♢', '3♢', '5♧', '4♧', '10♢']
+Player 1 card is the small blind
+kiBot: hand_value =  0.555052790346908 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 32 STARTING
+player's money: [1020, 30, -1050]
+Player 1 cards are  ['9♤', '5♢']
+Player 2 cards are  ['5♤', '6♢']
+Player 3 cards are  ['10♢', '8♡']
+the community cards are ['7♡', 'J♤', 'K♧', 'A♢', 'Q♤']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['7♡', 'J♤', 'K♧']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['7♡', 'J♤', 'K♧', 'A♢']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['7♡', 'J♤', 'K♧', 'A♢', 'Q♤']
+player3 wins
+########################################################################
+ROUND 33 STARTING
+player's money: [1020, 10, -1030]
+Player 1 cards are  ['K♢', 'J♤']
+Player 2 cards are  ['Q♢', '9♤']
+Player 3 cards are  ['9♡', '7♤']
+the community cards are ['2♤', '8♧', 'K♧', '3♤', '6♢']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  0.02564102564102564 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 raises to 200
+player 2 folds
+the current community card revealed is ['2♤', '8♧', 'K♧']
+player 1 wins as everyone else folds
+########################################################################
+ROUND 34 STARTING
+player's money: [1050, -10, -1040]
+Player 1 cards are  ['A♢', '7♧']
+Player 2 cards are  ['4♢', '3♢']
+Player 3 cards are  ['5♤', '2♤']
+the community cards are ['2♢', '5♢', '8♡', 'K♧', '8♧']
+Player 1 card is the small blind
+kiBot: hand_value =  -0.24434389140271492 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 35 STARTING
+player's money: [1040, 0, -1040]
+Player 1 cards are  ['J♤', 'K♤']
+Player 2 cards are  ['3♢', 'J♧']
+Player 3 cards are  ['4♧', '10♤']
+the community cards are ['6♤', 'A♢', '5♤', '8♡', 'J♡']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['6♤', 'A♢', '5♤']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['6♤', 'A♢', '5♤', '8♡']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['6♤', 'A♢', '5♤', '8♡', 'J♡']
+player2 wins
+########################################################################
+ROUND 36 STARTING
+player's money: [1040, 20, -1060]
+Player 1 cards are  ['Q♧', 'A♤']
+Player 2 cards are  ['10♡', '2♤']
+Player 3 cards are  ['4♧', 'J♢']
+the community cards are ['9♤', 'Q♢', '3♢', '8♡', 'J♡']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  -0.6666666666666666 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 raises to 200
+player 2 folds
+the current community card revealed is ['9♤', 'Q♢', '3♢']
+player 1 wins as everyone else folds
+########################################################################
+ROUND 37 STARTING
+player's money: [1070, 0, -1070]
+Player 1 cards are  ['7♧', '3♧']
+Player 2 cards are  ['7♡', '6♢']
+Player 3 cards are  ['7♢', '5♤']
+the community cards are ['3♢', 'K♤', '4♡', '3♡', '10♡']
+Player 1 card is the small blind
+kiBot: hand_value =  -0.2654600301659125 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 38 STARTING
+player's money: [1060, 10, -1070]
+Player 1 cards are  ['J♡', 'J♢']
+Player 2 cards are  ['3♤', '9♤']
+Player 3 cards are  ['Q♢', '9♡']
+the community cards are ['K♧', 'A♤', '10♡', '5♧', 'K♢']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['K♧', 'A♤', '10♡']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['K♧', 'A♤', '10♡', '5♧']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['K♧', 'A♤', '10♡', '5♧', 'K♢']
+player3 wins
+########################################################################
+ROUND 39 STARTING
+player's money: [1060, -10, -1050]
+Player 1 cards are  ['10♤', '6♡']
+Player 2 cards are  ['K♡', '10♧']
+Player 3 cards are  ['J♧', '8♧']
+the community cards are ['3♤', 'A♢', '2♡', '3♢', '5♡']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  0.6123680241327301 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 calls
+player 2 calls
+the current community card revealed is ['3♤', 'A♢', '2♡']
+advances to round 2
+player 1 raises to 150
+player 2 folds
+the current community card revealed is ['3♤', 'A♢', '2♡', '3♢']
+player 1 wins as everyone else folds
+########################################################################
+ROUND 40 STARTING
+player's money: [1090, -30, -1060]
+Player 1 cards are  ['9♡', '10♤']
+Player 2 cards are  ['K♤', 'Q♡']
+Player 3 cards are  ['7♢', 'J♡']
+the community cards are ['5♢', '8♤', '7♤', '4♢', '5♤']
+Player 1 card is the small blind
+kiBot: hand_value =  -0.48265460030165913 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 41 STARTING
+player's money: [1080, -20, -1060]
+Player 1 cards are  ['Q♤', '2♡']
+Player 2 cards are  ['8♧', '9♧']
+Player 3 cards are  ['Q♧', 'K♧']
+the community cards are ['A♡', '3♡', '4♢', 'K♢', '10♡']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['A♡', '3♡', '4♢']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['A♡', '3♡', '4♢', 'K♢']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['A♡', '3♡', '4♢', 'K♢', '10♡']
+player3 wins
+########################################################################
+ROUND 42 STARTING
+player's money: [1080, -40, -1040]
+Player 1 cards are  ['8♢', '4♡']
+Player 2 cards are  ['2♧', 'K♢']
+Player 3 cards are  ['6♤', 'A♤']
+the community cards are ['2♡', 'Q♡', '10♤', '10♢', 'Q♧']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  0.7315233785822021 stage =  0
+player 3 raises to 1000
+player 1 folds
+player 2 calls
+the current community card revealed is []
+advances to round 1
+player 3 calls
+player 2 calls
+the current community card revealed is ['2♡', 'Q♡', '10♤']
+advances to round 2
+player 3 calls
+player 2 calls
+the current community card revealed is ['2♡', 'Q♡', '10♤', '10♢']
+advances to round 3
+player 3 calls
+player 2 calls
+the current community card revealed is ['2♡', 'Q♡', '10♤', '10♢', 'Q♧']
+player3 wins
+########################################################################
+ROUND 43 STARTING
+player's money: [1060, -1040, -20]
+Player 1 cards are  ['6♢', '9♡']
+Player 2 cards are  ['6♤', '3♡']
+Player 3 cards are  ['A♧', '8♤']
+the community cards are ['K♢', '9♤', '10♢', 'Q♧', 'K♧']
+Player 1 card is the small blind
+kiBot: hand_value =  0.2971342383107089 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 44 STARTING
+player's money: [1050, -1030, -20]
+Player 1 cards are  ['10♧', 'K♤']
+Player 2 cards are  ['4♧', '8♧']
+Player 3 cards are  ['8♢', '10♡']
+the community cards are ['4♢', '8♡', '6♢', '5♢', '4♡']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 raises to 40
+kiBot: hand_value =  0.8991674375578168 stage =  3
+player 3 raises to 1000
+player 2 raises to 1000
+the current community card revealed is ['4♢', '8♡', '6♢']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['4♢', '8♡', '6♢', '5♢']
+advances to round 3
+player 2 raises to 1000
+player 3 calls
+the current community card revealed is ['4♢', '8♡', '6♢', '5♢', '4♡']
+player2 wins
+########################################################################
+ROUND 45 STARTING
+player's money: [1050, -30, -1020]
+Player 1 cards are  ['8♡', 'A♧']
+Player 2 cards are  ['3♢', '2♡']
+Player 3 cards are  ['10♡', '6♤']
+the community cards are ['Q♢', 'Q♤', '4♡', '4♢', '9♤']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  -0.6862745098039216 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 raises to 200
+player 2 folds
+the current community card revealed is ['Q♢', 'Q♤', '4♡']
+player 1 wins as everyone else folds
+########################################################################
+ROUND 46 STARTING
+player's money: [1080, -50, -1030]
+Player 1 cards are  ['8♧', 'A♢']
+Player 2 cards are  ['Q♢', '7♡']
+Player 3 cards are  ['9♧', '9♡']
+the community cards are ['2♢', '6♢', '7♤', 'Q♧', '8♤']
+Player 1 card is the small blind
+kiBot: hand_value =  0.8763197586726998 stage =  0
+player 3 raises to 1000
+player 1 folds
+player 2 calls
+the current community card revealed is []
+advances to round 1
+player 2 raises to 1000
+player 3 calls
+the current community card revealed is ['2♢', '6♢', '7♤']
+advances to round 2
+player 2 raises to 1000
+player 3 calls
+the current community card revealed is ['2♢', '6♢', '7♤', 'Q♧']
+advances to round 3
+player 2 raises to 1000
+player 3 calls
+the current community card revealed is ['2♢', '6♢', '7♤', 'Q♧', '8♤']
+player2 wins
+########################################################################
+ROUND 47 STARTING
+player's money: [1070, 960, -2030]
+Player 1 cards are  ['A♡', '3♡']
+Player 2 cards are  ['4♡', '2♡']
+Player 3 cards are  ['A♢', '9♢']
+the community cards are ['K♧', '9♧', '6♤', 'Q♢', '5♤']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['K♧', '9♧', '6♤']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['K♧', '9♧', '6♤', 'Q♢']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['K♧', '9♧', '6♤', 'Q♢', '5♤']
+player3 wins
+########################################################################
+ROUND 48 STARTING
+player's money: [1070, 940, -2010]
+Player 1 cards are  ['K♤', '9♢']
+Player 2 cards are  ['10♤', '7♡']
+Player 3 cards are  ['4♢', '2♧']
+the community cards are ['6♢', '4♤', 'J♡', 'Q♤', '5♢']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  -0.5987933634992458 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 calls
+player 2 calls
+the current community card revealed is ['6♢', '4♤', 'J♡']
+advances to round 2
+player 1 calls
+player 2 calls
+the current community card revealed is ['6♢', '4♤', 'J♡', 'Q♤']
+advances to round 3
+player 1 calls
+player 2 calls
+the current community card revealed is ['6♢', '4♤', 'J♡', 'Q♤', '5♢']
+player1 wins
+########################################################################
+ROUND 49 STARTING
+player's money: [1100, 920, -2020]
+Player 1 cards are  ['A♤', '2♡']
+Player 2 cards are  ['6♡', 'Q♢']
+Player 3 cards are  ['10♧', 'K♧']
+the community cards are ['8♢', '4♡', '7♤', '7♢', '7♧']
+Player 1 card is the small blind
+kiBot: hand_value =  0.8190045248868778 stage =  0
+player 3 raises to 1000
+player 1 folds
+player 2 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['8♢', '4♡', '7♤']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['8♢', '4♡', '7♤', '7♢']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['8♢', '4♡', '7♤', '7♢', '7♧']
+player3 wins
+########################################################################
+ROUND 50 STARTING
+player's money: [1090, -80, -1010]
+Player 1 cards are  ['8♤', '8♧']
+Player 2 cards are  ['5♧', '4♤']
+Player 3 cards are  ['K♤', '7♡']
+the community cards are ['6♤', 'A♢', '9♤', '9♧', 'J♧']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['6♤', 'A♢', '9♤']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['6♤', 'A♢', '9♤', '9♧']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['6♤', 'A♢', '9♤', '9♧', 'J♧']
+player3 wins
+########################################################################
+ROUND 51 STARTING
+player's money: [1090, -100, -990]
+Player 1 cards are  ['2♤', '3♧']
+Player 2 cards are  ['A♤', '7♤']
+Player 3 cards are  ['4♧', '9♧']
+the community cards are ['8♤', '5♢', '10♡', 'A♡', '6♡']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  -0.5580693815987934 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 calls
+player 2 calls
+the current community card revealed is ['8♤', '5♢', '10♡']
+advances to round 2
+player 1 calls
+player 2 raises to 40
+player 1 folds
+the current community card revealed is ['8♤', '5♢', '10♡', 'A♡']
+player 2 wins as everyone else folds
+########################################################################
+ROUND 52 STARTING
+player's money: [1070, -70, -1000]
+Player 1 cards are  ['6♡', 'A♢']
+Player 2 cards are  ['3♧', '6♤']
+Player 3 cards are  ['J♢', 'K♡']
+the community cards are ['J♡', 'Q♡', '2♡', '10♤', '9♡']
+Player 1 card is the small blind
+kiBot: hand_value =  0.7828054298642534 stage =  0
+player 3 raises to 1000
+player 1 folds
+player 2 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['J♡', 'Q♡', '2♡']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['J♡', 'Q♡', '2♡', '10♤']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['J♡', 'Q♡', '2♡', '10♤', '9♡']
+player3 wins
+########################################################################
+ROUND 53 STARTING
+player's money: [1060, -1070, 10]
+Player 1 cards are  ['A♡', '3♢']
+Player 2 cards are  ['Q♧', '2♡']
+Player 3 cards are  ['10♡', '9♧']
+the community cards are ['K♢', '10♢', '8♤', 'A♧', '9♤']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['K♢', '10♢', '8♤']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['K♢', '10♢', '8♤', 'A♧']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['K♢', '10♢', '8♤', 'A♧', '9♤']
+player3 wins
+########################################################################
+ROUND 54 STARTING
+player's money: [1060, -1090, 30]
+Player 1 cards are  ['A♧', '5♤']
+Player 2 cards are  ['4♧', 'Q♤']
+Player 3 cards are  ['9♡', '10♢']
+the community cards are ['7♡', '3♡', '10♤', 'A♡', '5♡']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  0.6033182503770739 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 calls
+player 2 calls
+the current community card revealed is ['7♡', '3♡', '10♤']
+advances to round 2
+player 1 raises to 200
+player 2 folds
+the current community card revealed is ['7♡', '3♡', '10♤', 'A♡']
+player 1 wins as everyone else folds
+########################################################################
+ROUND 55 STARTING
+player's money: [1090, -1110, 20]
+Player 1 cards are  ['3♢', '4♧']
+Player 2 cards are  ['J♢', '9♤']
+Player 3 cards are  ['A♧', '5♤']
+the community cards are ['8♤', '6♢', '6♧', '2♤', 'J♤']
+Player 1 card is the small blind
+kiBot: hand_value =  0.4057315233785822 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 56 STARTING
+player's money: [1080, -1100, 20]
+Player 1 cards are  ['6♡', '2♢']
+Player 2 cards are  ['Q♢', '3♧']
+Player 3 cards are  ['4♢', '2♤']
+the community cards are ['5♢', 'Q♡', '5♧', '10♢', 'J♤']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 raises to 40
+kiBot: hand_value =  0.18593894542090658 stage =  3
+player 3 folds
+the current community card revealed is ['5♢', 'Q♡', '5♧']
+player 2 wins as everyone else folds
+########################################################################
+ROUND 57 STARTING
+player's money: [1080, -1080, 0]
+Player 1 cards are  ['9♡', '10♤']
+Player 2 cards are  ['J♤', '7♡']
+Player 3 cards are  ['K♤', '3♧']
+the community cards are ['2♢', '6♤', 'J♧', '5♡', '8♡']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  -0.06636500754147813 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 calls
+player 2 raises to 40
+player 1 folds
+the current community card revealed is ['2♢', '6♤', 'J♧']
+player 2 wins as everyone else folds
+########################################################################
+ROUND 58 STARTING
+player's money: [1060, -1050, -10]
+Player 1 cards are  ['7♡', '7♤']
+Player 2 cards are  ['9♢', '6♧']
+Player 3 cards are  ['4♡', '2♤']
+the community cards are ['8♧', '8♡', '3♤', '3♧', '8♢']
+Player 1 card is the small blind
+kiBot: hand_value =  -0.5595776772247361 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 59 STARTING
+player's money: [1050, -1040, -10]
+Player 1 cards are  ['7♡', '7♢']
+Player 2 cards are  ['9♢', 'A♧']
+Player 3 cards are  ['10♧', '6♤']
+the community cards are ['A♤', 'J♢', '8♤', '5♡', '5♢']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 raises to 40
+kiBot: hand_value =  0.3524514338575393 stage =  3
+player 3 folds
+the current community card revealed is ['A♤', 'J♢', '8♤']
+player 2 wins as everyone else folds
+########################################################################
+ROUND 60 STARTING
+player's money: [1050, -1020, -30]
+Player 1 cards are  ['Q♡', '9♢']
+Player 2 cards are  ['K♡', '5♡']
+Player 3 cards are  ['4♤', 'J♢']
+the community cards are ['9♡', '6♧', '7♤', 'A♤', '2♡']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  -0.6515837104072398 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 raises to 150
+player 2 folds
+the current community card revealed is ['9♡', '6♧', '7♤']
+player 1 wins as everyone else folds
+########################################################################
+ROUND 61 STARTING
+player's money: [1080, -1040, -40]
+Player 1 cards are  ['9♡', '6♧']
+Player 2 cards are  ['2♧', '5♡']
+Player 3 cards are  ['9♧', '8♧']
+the community cards are ['9♢', 'A♤', 'Q♧', '8♤', 'J♢']
+Player 1 card is the small blind
+kiBot: hand_value =  0.7571644042232277 stage =  0
+player 3 raises to 1000
+player 1 folds
+player 2 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['9♢', 'A♤', 'Q♧']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['9♢', 'A♤', 'Q♧', '8♤']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['9♢', 'A♤', 'Q♧', '8♤', 'J♢']
+player3 wins
+########################################################################
+ROUND 62 STARTING
+player's money: [1070, -2040, 970]
+Player 1 cards are  ['3♤', '10♤']
+Player 2 cards are  ['9♧', 'A♧']
+Player 3 cards are  ['5♡', '3♡']
+the community cards are ['2♡', 'K♡', '6♤', '8♡', '6♧']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['2♡', 'K♡', '6♤']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['2♡', 'K♡', '6♤', '8♡']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['2♡', 'K♡', '6♤', '8♡', '6♧']
+player3 wins
+########################################################################
+ROUND 63 STARTING
+player's money: [1070, -2060, 990]
+Player 1 cards are  ['2♧', 'K♧']
+Player 2 cards are  ['A♡', 'J♢']
+Player 3 cards are  ['4♡', 'A♧']
+the community cards are ['5♢', '4♧', '10♢', '9♢', '2♢']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  0.4298642533936652 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 calls
+player 2 calls
+the current community card revealed is ['5♢', '4♧', '10♢']
+advances to round 2
+player 1 calls
+player 2 calls
+the current community card revealed is ['5♢', '4♧', '10♢', '9♢']
+advances to round 3
+player 1 raises to 150
+player 2 raises to 300
+player 1 raises to 450
+player 2 raises to 900
+player 1 raises to 1000
+player 2 raises to 1000
+the current community card revealed is ['5♢', '4♧', '10♢', '9♢', '2♢']
+player2 wins
+########################################################################
+ROUND 64 STARTING
+player's money: [70, -1050, 980]
+Player 1 cards are  ['3♢', '10♤']
+Player 2 cards are  ['4♧', '8♧']
+Player 3 cards are  ['4♢', '7♢']
+the community cards are ['8♢', '8♤', 'K♧', '5♢', '7♤']
+Player 1 card is the small blind
+kiBot: hand_value =  0.033182503770739065 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 65 STARTING
+player's money: [60, -1040, 980]
+Player 1 cards are  ['4♤', 'J♢']
+Player 2 cards are  ['6♧', '8♢']
+Player 3 cards are  ['K♢', 'J♤']
+the community cards are ['K♤', '2♤', '6♢', '3♡', 'Q♡']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['K♤', '2♤', '6♢']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['K♤', '2♤', '6♢', '3♡']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['K♤', '2♤', '6♢', '3♡', 'Q♡']
+player3 wins
+########################################################################
+ROUND 66 STARTING
+player's money: [60, -1060, 1000]
+Player 1 cards are  ['Q♧', '10♢']
+Player 2 cards are  ['J♤', '5♤']
+Player 3 cards are  ['2♢', '5♧']
+the community cards are ['2♡', '6♡', 'K♤', '3♤', '10♡']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  -0.7375565610859729 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 calls
+player 2 calls
+the current community card revealed is ['2♡', '6♡', 'K♤']
+advances to round 2
+player 1 calls
+player 2 calls
+the current community card revealed is ['2♡', '6♡', 'K♤', '3♤']
+advances to round 3
+player 1 raises to 150
+player 2 folds
+the current community card revealed is ['2♡', '6♡', 'K♤', '3♤', '10♡']
+player 1 wins as everyone else folds
+########################################################################
+ROUND 67 STARTING
+player's money: [90, -1080, 990]
+Player 1 cards are  ['A♤', '9♤']
+Player 2 cards are  ['3♢', '4♤']
+Player 3 cards are  ['9♡', '10♢']
+the community cards are ['J♤', 'A♡', '8♢', '5♤', 'J♡']
+Player 1 card is the small blind
+kiBot: hand_value =  0.6033182503770739 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 68 STARTING
+player's money: [80, -1070, 990]
+Player 1 cards are  ['5♡', '3♢']
+Player 2 cards are  ['A♢', 'K♧']
+Player 3 cards are  ['2♧', '6♢']
+the community cards are ['J♢', '8♢', '9♧', '2♢', '10♡']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['J♢', '8♢', '9♧']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['J♢', '8♢', '9♧', '2♢']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['J♢', '8♢', '9♧', '2♢', '10♡']
+player3 wins
+########################################################################
+ROUND 69 STARTING
+player's money: [80, -1090, 1010]
+Player 1 cards are  ['8♢', '9♢']
+Player 2 cards are  ['7♢', '5♤']
+Player 3 cards are  ['A♢', 'K♡']
+the community cards are ['4♢', '10♤', '5♡', 'K♤', 'J♧']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  0.9396681749622926 stage =  0
+player 3 raises to 1000
+player 1 folds
+player 2 calls
+the current community card revealed is []
+advances to round 1
+player 3 calls
+player 2 calls
+the current community card revealed is ['4♢', '10♤', '5♡']
+advances to round 2
+player 3 calls
+player 2 calls
+the current community card revealed is ['4♢', '10♤', '5♡', 'K♤']
+advances to round 3
+player 3 calls
+player 2 calls
+the current community card revealed is ['4♢', '10♤', '5♡', 'K♤', 'J♧']
+player3 wins
+########################################################################
+ROUND 70 STARTING
+player's money: [60, -2090, 2030]
+Player 1 cards are  ['5♧', '6♧']
+Player 2 cards are  ['J♤', '5♡']
+Player 3 cards are  ['4♤', '9♢']
+the community cards are ['7♡', 'K♧', '7♤', 'A♤', '6♤']
+Player 1 card is the small blind
+kiBot: hand_value =  -0.9110105580693816 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 71 STARTING
+player's money: [50, -2080, 2030]
+Player 1 cards are  ['Q♡', '3♢']
+Player 2 cards are  ['10♢', 'K♤']
+Player 3 cards are  ['K♧', '6♡']
+the community cards are ['9♤', 'Q♤', '5♢', '2♤', '7♡']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['9♤', 'Q♤', '5♢']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['9♤', 'Q♤', '5♢', '2♤']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['9♤', 'Q♤', '5♢', '2♤', '7♡']
+player2 wins
+########################################################################
+ROUND 72 STARTING
+player's money: [50, -2060, 2010]
+Player 1 cards are  ['Q♧', 'J♤']
+Player 2 cards are  ['8♢', '3♡']
+Player 3 cards are  ['K♡', 'J♢']
+the community cards are ['3♤', 'A♡', '5♤', '6♡', '9♢']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  0.7828054298642534 stage =  0
+player 3 raises to 1000
+player 1 folds
+player 2 calls
+the current community card revealed is []
+advances to round 1
+player 3 calls
+player 2 calls
+the current community card revealed is ['3♤', 'A♡', '5♤']
+advances to round 2
+player 3 calls
+player 2 calls
+the current community card revealed is ['3♤', 'A♡', '5♤', '6♡']
+advances to round 3
+player 3 calls
+player 2 calls
+the current community card revealed is ['3♤', 'A♡', '5♤', '6♡', '9♢']
+player2 wins
+########################################################################
+ROUND 73 STARTING
+player's money: [30, -1040, 1010]
+Player 1 cards are  ['Q♢', '6♤']
+Player 2 cards are  ['6♧', '10♢']
+Player 3 cards are  ['5♧', '9♡']
+the community cards are ['9♧', '5♤', '4♢', 'Q♤', '9♤']
+Player 1 card is the small blind
+kiBot: hand_value =  -0.7616892911010558 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 74 STARTING
+player's money: [20, -1030, 1010]
+Player 1 cards are  ['2♡', '4♡']
+Player 2 cards are  ['6♢', '8♢']
+Player 3 cards are  ['2♤', '5♧']
+the community cards are ['6♡', 'Q♡', 'J♤', '8♤', '10♢']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['6♡', 'Q♡', 'J♤']
+advances to round 2
+player 2 raises to 40
+kiBot: hand_value =  0.07053140096618357 stage =  4
+player 3 folds
+the current community card revealed is ['6♡', 'Q♡', 'J♤', '8♤']
+player 2 wins as everyone else folds
+########################################################################
+ROUND 75 STARTING
+player's money: [20, -1010, 990]
+Player 1 cards are  ['4♢', 'A♢']
+Player 2 cards are  ['A♡', '4♤']
+Player 3 cards are  ['Q♧', '8♤']
+the community cards are ['9♢', '6♤', '3♧', '4♧', '5♡']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  -0.2066365007541478 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 calls
+player 2 calls
+the current community card revealed is ['9♢', '6♤', '3♧']
+advances to round 2
+player 1 raises to 150
+player 2 calls
+the current community card revealed is ['9♢', '6♤', '3♧', '4♧']
+advances to round 3
+player 1 raises to 300
+player 2 folds
+the current community card revealed is ['9♢', '6♤', '3♧', '4♧', '5♡']
+player 1 wins as everyone else folds
+########################################################################
+ROUND 76 STARTING
+player's money: [180, -1160, 980]
+Player 1 cards are  ['J♡', '5♤']
+Player 2 cards are  ['7♡', '9♤']
+Player 3 cards are  ['8♢', '10♤']
+the community cards are ['3♡', '6♤', '2♡', '5♢', '4♧']
+Player 1 card is the small blind
+kiBot: hand_value =  0.09200603318250378 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 77 STARTING
+player's money: [170, -1150, 980]
+Player 1 cards are  ['K♢', '4♢']
+Player 2 cards are  ['K♧', 'J♡']
+Player 3 cards are  ['7♧', '4♤']
+the community cards are ['2♤', 'Q♡', '3♡', '6♧', 'K♡']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['2♤', 'Q♡', '3♡']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['2♤', 'Q♡', '3♡', '6♧']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['2♤', 'Q♡', '3♡', '6♧', 'K♡']
+player2 wins
+########################################################################
+ROUND 78 STARTING
+player's money: [170, -1130, 960]
+Player 1 cards are  ['J♧', '8♢']
+Player 2 cards are  ['2♤', '8♡']
+Player 3 cards are  ['Q♤', '9♢']
+the community cards are ['9♡', 'J♤', 'K♡', '4♡', '9♤']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  0.24132730015082957 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 raises to 150
+player 2 folds
+the current community card revealed is ['9♡', 'J♤', 'K♡']
+player 1 wins as everyone else folds
+########################################################################
+ROUND 79 STARTING
+player's money: [200, -1150, 950]
+Player 1 cards are  ['7♢', '4♡']
+Player 2 cards are  ['3♧', '6♤']
+Player 3 cards are  ['A♢', 'A♡']
+the community cards are ['7♤', '5♤', 'A♧', '7♡', 'J♢']
+Player 1 card is the small blind
+kiBot: hand_value =  0.995475113122172 stage =  0
+player 3 raises to 1000
+player 1 folds
+player 2 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['7♤', '5♤', 'A♧']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['7♤', '5♤', 'A♧', '7♡']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['7♤', '5♤', 'A♧', '7♡', 'J♢']
+player3 wins
+########################################################################
+ROUND 80 STARTING
+player's money: [190, -2150, 1960]
+Player 1 cards are  ['9♢', 'Q♤']
+Player 2 cards are  ['2♡', '9♡']
+Player 3 cards are  ['6♧', '7♤']
+the community cards are ['K♤', '6♢', '8♡', 'Q♧', '2♢']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['K♤', '6♢', '8♡']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['K♤', '6♢', '8♡', 'Q♧']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['K♤', '6♢', '8♡', 'Q♧', '2♢']
+player3 wins
+########################################################################
+ROUND 81 STARTING
+player's money: [190, -2170, 1980]
+Player 1 cards are  ['J♤', '6♢']
+Player 2 cards are  ['3♤', '10♢']
+Player 3 cards are  ['5♤', 'K♢']
+the community cards are ['4♢', '8♤', '4♡', '3♢', 'K♡']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  -0.09803921568627451 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 raises to 150
+player 2 folds
+the current community card revealed is ['4♢', '8♤', '4♡']
+player 1 wins as everyone else folds
+########################################################################
+ROUND 82 STARTING
+player's money: [220, -2190, 1970]
+Player 1 cards are  ['A♧', 'A♤']
+Player 2 cards are  ['A♢', '8♤']
+Player 3 cards are  ['10♢', 'Q♤']
+the community cards are ['6♡', '3♤', '8♧', 'Q♧', '10♡']
+Player 1 card is the small blind
+kiBot: hand_value =  0.6576168929110106 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 83 STARTING
+player's money: [210, -2180, 1970]
+Player 1 cards are  ['7♤', '10♡']
+Player 2 cards are  ['3♡', '7♧']
+Player 3 cards are  ['8♧', 'Q♧']
+the community cards are ['Q♢', '2♢', 'A♤', '6♢', '10♤']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['Q♢', '2♢', 'A♤']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['Q♢', '2♢', 'A♤', '6♢']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['Q♢', '2♢', 'A♤', '6♢', '10♤']
+player3 wins
+########################################################################
+ROUND 84 STARTING
+player's money: [210, -2200, 1990]
+Player 1 cards are  ['3♢', 'J♡']
+Player 2 cards are  ['J♤', '8♧']
+Player 3 cards are  ['A♧', '10♤']
+the community cards are ['A♢', 'K♧', '10♢', '6♡', '3♤']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  0.579185520361991 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 calls
+player 2 calls
+the current community card revealed is ['A♢', 'K♧', '10♢']
+advances to round 2
+player 1 calls
+player 2 calls
+the current community card revealed is ['A♢', 'K♧', '10♢', '6♡']
+advances to round 3
+player 1 raises to 150
+player 2 folds
+the current community card revealed is ['A♢', 'K♧', '10♢', '6♡', '3♤']
+player 1 wins as everyone else folds
+########################################################################
+ROUND 85 STARTING
+player's money: [240, -2220, 1980]
+Player 1 cards are  ['2♡', '5♡']
+Player 2 cards are  ['4♧', 'Q♤']
+Player 3 cards are  ['4♢', '7♢']
+the community cards are ['5♧', 'J♡', '9♡', '3♡', 'Q♢']
+Player 1 card is the small blind
+kiBot: hand_value =  0.033182503770739065 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 86 STARTING
+player's money: [230, -2210, 1980]
+Player 1 cards are  ['5♢', '9♡']
+Player 2 cards are  ['5♧', '2♢']
+Player 3 cards are  ['7♢', '7♡']
+the community cards are ['8♡', '6♢', '6♤', '9♧', '6♡']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['8♡', '6♢', '6♤']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['8♡', '6♢', '6♤', '9♧']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['8♡', '6♢', '6♤', '9♧', '6♡']
+player3 wins
+########################################################################
+ROUND 87 STARTING
+player's money: [230, -2230, 2000]
+Player 1 cards are  ['5♡', 'J♤']
+Player 2 cards are  ['6♤', '4♧']
+Player 3 cards are  ['J♢', '7♧']
+the community cards are ['Q♧', '7♡', '5♤', 'Q♡', '4♢']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  -0.49321266968325794 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 raises to 150
+player 2 folds
+the current community card revealed is ['Q♧', '7♡', '5♤']
+player 1 wins as everyone else folds
+########################################################################
+ROUND 88 STARTING
+player's money: [260, -2250, 1990]
+Player 1 cards are  ['7♧', '2♤']
+Player 2 cards are  ['2♢', '7♢']
+Player 3 cards are  ['3♡', 'Q♢']
+the community cards are ['5♢', 'Q♡', 'J♢', '10♧', '8♤']
+Player 1 card is the small blind
+kiBot: hand_value =  -0.3393665158371041 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 89 STARTING
+player's money: [250, -2240, 1990]
+Player 1 cards are  ['4♤', '6♤']
+Player 2 cards are  ['10♡', '2♢']
+Player 3 cards are  ['3♡', '5♤']
+the community cards are ['5♡', '8♢', 'J♡', '7♡', '10♢']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['5♡', '8♢', 'J♡']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['5♡', '8♢', 'J♡', '7♡']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['5♡', '8♢', 'J♡', '7♡', '10♢']
+player2 wins
+########################################################################
+ROUND 90 STARTING
+player's money: [250, -2220, 1970]
+Player 1 cards are  ['A♡', '10♧']
+Player 2 cards are  ['3♡', 'Q♡']
+Player 3 cards are  ['9♡', 'K♡']
+the community cards are ['5♤', 'J♡', 'Q♢', '9♢', '8♧']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  0.6003016591251885 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 calls
+player 2 raises to 40
+player 1 folds
+the current community card revealed is ['5♤', 'J♡', 'Q♢']
+player 2 wins as everyone else folds
+########################################################################
+ROUND 91 STARTING
+player's money: [230, -2190, 1960]
+Player 1 cards are  ['3♤', '2♤']
+Player 2 cards are  ['J♤', '7♢']
+Player 3 cards are  ['A♢', 'K♢']
+the community cards are ['8♧', 'Q♧', 'K♡', '2♧', '9♡']
+Player 1 card is the small blind
+kiBot: hand_value =  0.9698340874811463 stage =  0
+player 3 raises to 1000
+player 1 folds
+player 2 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['8♧', 'Q♧', 'K♡']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['8♧', 'Q♧', 'K♡', '2♧']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['8♧', 'Q♧', 'K♡', '2♧', '9♡']
+player3 wins
+########################################################################
+ROUND 92 STARTING
+player's money: [220, -3190, 2970]
+Player 1 cards are  ['6♧', '7♧']
+Player 2 cards are  ['K♤', 'J♧']
+Player 3 cards are  ['J♤', 'A♧']
+the community cards are ['9♤', 'Q♧', 'A♡', '2♢', '6♡']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['9♤', 'Q♧', 'A♡']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['9♤', 'Q♧', 'A♡', '2♢']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['9♤', 'Q♧', 'A♡', '2♢', '6♡']
+player3 wins
+########################################################################
+ROUND 93 STARTING
+player's money: [220, -3210, 2990]
+Player 1 cards are  ['7♧', '5♡']
+Player 2 cards are  ['6♧', '9♧']
+Player 3 cards are  ['8♡', '4♢']
+the community cards are ['A♧', 'A♢', '7♢', 'J♤', 'Q♧']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  -0.8205128205128205 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 raises to 300
+player 2 folds
+the current community card revealed is ['A♧', 'A♢', '7♢']
+player 1 wins as everyone else folds
+########################################################################
+ROUND 94 STARTING
+player's money: [250, -3230, 2980]
+Player 1 cards are  ['J♧', '5♢']
+Player 2 cards are  ['K♡', '9♤']
+Player 3 cards are  ['3♤', '7♧']
+the community cards are ['2♤', '7♢', '5♤', 'J♤', '2♧']
+Player 1 card is the small blind
+kiBot: hand_value =  -0.8763197586726998 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 95 STARTING
+player's money: [240, -3220, 2980]
+Player 1 cards are  ['8♡', '5♤']
+Player 2 cards are  ['8♧', '8♢']
+Player 3 cards are  ['4♡', 'Q♤']
+the community cards are ['3♡', 'Q♡', '5♧', '6♢', 'K♧']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 raises to 40
+kiBot: hand_value =  0.9037927844588344 stage =  3
+player 3 raises to 1000
+player 2 raises to 1000
+the current community card revealed is ['3♡', 'Q♡', '5♧']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['3♡', 'Q♡', '5♧', '6♢']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['3♡', 'Q♡', '5♧', '6♢', 'K♧']
+player3 wins
+########################################################################
+ROUND 96 STARTING
+player's money: [240, -4220, 3980]
+Player 1 cards are  ['7♢', 'J♧']
+Player 2 cards are  ['10♡', '10♢']
+Player 3 cards are  ['Q♢', '4♢']
+the community cards are ['4♤', '6♡', '3♡', '7♧', '3♤']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  0.16289592760180996 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 calls
+player 2 raises to 40
+player 1 folds
+the current community card revealed is ['4♤', '6♡', '3♡']
+player 2 wins as everyone else folds
+########################################################################
+ROUND 97 STARTING
+player's money: [220, -4190, 3970]
+Player 1 cards are  ['Q♧', '2♢']
+Player 2 cards are  ['K♢', 'A♤']
+Player 3 cards are  ['9♧', 'K♡']
+the community cards are ['10♤', '8♤', 'A♧', '9♡', 'J♧']
+Player 1 card is the small blind
+kiBot: hand_value =  0.058823529411764705 stage =  0
+player 3 folds
+player 1 folds
+player 2 calls
+the current community card revealed is []
+player 2 wins as everyone else folds
+########################################################################
+ROUND 98 STARTING
+player's money: [210, -4180, 3970]
+Player 1 cards are  ['A♡', 'K♡']
+Player 2 cards are  ['10♧', '4♤']
+Player 3 cards are  ['10♡', 'J♢']
+the community cards are ['5♤', 'J♧', '5♧', 'A♧', '9♧']
+Player 2 card is the small blind
+player 1 folds
+player 2 calls
+player 3 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['5♤', 'J♧', '5♧']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['5♤', 'J♧', '5♧', 'A♧']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['5♤', 'J♧', '5♧', 'A♧', '9♧']
+player2 wins
+########################################################################
+ROUND 99 STARTING
+player's money: [210, -4160, 3950]
+Player 1 cards are  ['10♧', 'Q♤']
+Player 2 cards are  ['K♡', '9♢']
+Player 3 cards are  ['Q♧', '5♧']
+the community cards are ['A♧', '6♤', '4♤', '3♤', '3♧']
+Player 3 card is the small blind
+player 2 calls
+kiBot: hand_value =  0.1297134238310709 stage =  0
+player 3 folds
+player 1 calls
+the current community card revealed is []
+advances to round 1
+player 1 calls
+player 2 calls
+the current community card revealed is ['A♧', '6♤', '4♤']
+advances to round 2
+player 1 calls
+player 2 calls
+the current community card revealed is ['A♧', '6♤', '4♤', '3♤']
+advances to round 3
+player 1 raises to 150
+player 2 folds
+the current community card revealed is ['A♧', '6♤', '4♤', '3♤', '3♧']
+player 1 wins as everyone else folds
+########################################################################
+ROUND 100 STARTING
+player's money: [240, -4180, 3940]
+Player 1 cards are  ['3♢', '8♡']
+Player 2 cards are  ['5♧', '3♤']
+Player 3 cards are  ['10♢', 'J♢']
+the community cards are ['3♡', 'Q♢', '4♤', '7♡', '9♡']
+Player 1 card is the small blind
+kiBot: hand_value =  0.8672699849170438 stage =  0
+player 3 raises to 1000
+player 1 folds
+player 2 calls
+the current community card revealed is []
+advances to round 1
+player 2 calls
+player 3 calls
+the current community card revealed is ['3♡', 'Q♢', '4♤']
+advances to round 2
+player 2 calls
+player 3 calls
+the current community card revealed is ['3♡', 'Q♢', '4♤', '7♡']
+advances to round 3
+player 2 calls
+player 3 calls
+the current community card revealed is ['3♡', 'Q♢', '4♤', '7♡', '9♡']
+player2 wins
+########################################################################
+final money [230, -3170, 2940]

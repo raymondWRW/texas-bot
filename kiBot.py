@@ -75,9 +75,9 @@ for hand, value in initial_hand_value_list:
     initial_hand_value_dict[hand] = (t - len(initial_hand_value_dict)) / t
     initial_hand_value_dict[(hand[1], hand[0])] = initial_hand_value_dict[hand]
 
-def My_PokerHandEval(m0, m1, c1, c2, c3, c4, c5):
+def My_PokerHandEval(m0, m1, c1, c2, c3, c4=-1, c5=-1):
     return handle.My_PokerHandEval(m0, m1, c1, c2, c3, c4, c5)
-def My_PokerHandEvalOnlyValue(m0, m1, c1, c2, c3, c4, c5):
+def My_PokerHandEvalOnlyValue(m0, m1, c1, c2, c3, c4=-1, c5=-1):
     return handle.My_PokerHandEvalOnlyValue(m0, m1, c1, c2, c3, c4, c5)
 # round_information = {
 #     'stage' : 0,

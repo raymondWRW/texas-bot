@@ -6,8 +6,6 @@ BET_LIMIT_CEILING = 1000
 ROUND_NUMBER = 10
 # hand comparison function
 def checkHighCard(cards):
-    if DEBUG:
-        print("high card")
     return True, cards[0: 5]
 def checkPair(cards):
     bestHand = []
@@ -21,8 +19,6 @@ def checkPair(cards):
                     bestHand.append(cards[j])
                     countHand += 1
                     if(countHand == 5):
-                        if DEBUG:
-                            print("pair")
                         return True, bestHand
     return False, bestHand
 def checkTwoPair(cards):
@@ -43,9 +39,6 @@ def checkTwoPair(cards):
         if(not used[i]):
             bestHand.append(cards[i])
             break
-    if DEBUG:
-        if(len(bestHand) == 5):
-            print("two pairs")
     return len(bestHand) == 5, bestHand
 def checkThreeOfAKind(cards):
     bestHand = []
@@ -66,9 +59,6 @@ def checkThreeOfAKind(cards):
             count += 1
             if(count == 2):
                 break
-    if DEBUG:
-        if(len(bestHand) == 5):
-            print("three of a kind")
     return len(bestHand) == 5, bestHand
 def checkStraight(cards):
     possibleHand = []
@@ -83,8 +73,6 @@ def checkStraight(cards):
            possibleHand[i + 2][0] + 2 == 
            possibleHand[i + 3][0] + 3 == 
            possibleHand[i + 4][0] + 4):
-            if DEBUG:
-                print("straight")
             return True, possibleHand[i : i + 5]
     return False, 0
 def checkFlush(cards):
@@ -93,8 +81,6 @@ def checkFlush(cards):
         suit_arr[cards[i][1]].append(cards[i])
     for i in range(len(suit_arr)):
         if len(suit_arr[i]) >= 5:
-            if DEBUG:
-                print("flush")
             return True, suit_arr[i][0 : 5]
     return False, 0
 def checkFullHouse(cards):
@@ -115,9 +101,6 @@ def checkFullHouse(cards):
             bestHand.append(cards[i])
             bestHand.append(cards[i + 1])
             break
-    if DEBUG:
-        if len(bestHand) == 5:
-            print("full house")
     return len(bestHand) == 5, bestHand
 def fourOfAKind(cards):
     bestHand = []
@@ -137,9 +120,6 @@ def fourOfAKind(cards):
         if(not used[i]):
             bestHand.append(cards[i])
             break
-    if DEBUG:
-        if len(bestHand) == 5:
-            print("four of a kind")
     return len(bestHand) == 5, bestHand
 def checkRoyalFlush(cards):#strongest hand
     suit_arr = [[],[],[],[]]
@@ -153,8 +133,6 @@ def checkRoyalFlush(cards):#strongest hand
                     suit_arr[i][j + 2][0] + 2 == 
                     suit_arr[i][j + 3][0] + 3 == 
                     suit_arr[i][j + 4][0] + 4):
-                    if DEBUG:
-                        print("straight flush")
                     return True, suit_arr[i][j : j + 5]
     return False, []
 def cardToNumberValue(cards):# compare two hand by card value
@@ -207,10 +185,8 @@ def checkHand(player_card):# rank every players hand # every hand is sorted (pla
             if a:
                 winningplayer.append((i[0], b))
     player_won = []
-    player_won_value = 0
+    player_won_value = max([cardToNumberValue(winningplayer[i][1]) for i in range(len(winningplayer))])
     for i in range(len(winningplayer)):
-        if(cardToNumberValue(winningplayer[i][1]) > player_won_value):
-            player_won_value = cardToNumberValue(winningplayer[i][1])
-            player_won = []
+        if(cardToNumberValue(winningplayer[i][1]) >= player_won_value):
             player_won.append(winningplayer[i][0])
     return player_won
