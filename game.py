@@ -1,13 +1,33 @@
+import os
+
 import allInBot
 import easyBot
+import sunnyBot
+import kiBot
+import functools
 import random
 import copy
 import gameUtil
+import sys
 from gameUtil import DEBUG, STARTING_PLAYER_MONEY, SMALL_BLIND_BET_MONEY, BIG_BLIND_BET_MONEY, BET_LIMIT_CEILING, ROUND_NUMBER
-players = [easyBot.easyBot(0), 
-           easyBot.easyBot(1),
-           allInBot.allInBot(2), 
-           allInBot.allInBot(3)]
+
+if os.environ["USE_COMMAND_LINE"] == "True":
+    ROUND_NUMBER = int(sys.argv[1])
+    player_names = sys.argv[2: ]
+    player_maps = {
+        'easyBot': easyBot.easyBot,
+        'allInBot': allInBot.allInBot,
+        'sunnyBot': sunnyBot.sunnyBot,
+        'kiBot-basic': functools.partial(kiBot.kiBot, strategy='basic'),
+        'kiBot-basicp': functools.partial(kiBot.kiBot, strategy='basicp'),
+        'kiBot-basicpp': functools.partial(kiBot.kiBot, strategy='basicpp'),
+    }
+    players = [player_maps[name](index) for index, name in enumerate(player_names)]
+else:
+    players = [easyBot.easyBot(0),
+               easyBot.easyBot(1),
+               allInBot.allInBot(2),
+               allInBot.allInBot(3)]
 SUIT_DICT = {
     0 : "♤",
     1 : "♡",
