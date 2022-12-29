@@ -63,7 +63,7 @@ def cards_to_player_cards(cards):# convert the card format to what the human see
     return temp
 def round_information_to_player_information(): 
     return  {
-        'stage' : 0, # 0 = flop 1 = turn 2 = river
+        'stage' : copy.deepcopy(round_information['stage']), # 0 = flop 1 = turn 2 = river
         'player money' : copy.deepcopy(round_information['player money']),
         'player bets' : copy.deepcopy(round_information['player bets']),
         'player playing' : copy.deepcopy(round_information['player playing']),
