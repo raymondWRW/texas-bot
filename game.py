@@ -174,7 +174,7 @@ for round_number in range(ROUND_NUMBER):
         for i in range(len(players)):
             players[i].revealed_card(player_card_combination)
         if DEBUG:
-            print("player", end = '')
+            print("player", end = ' ')
             for i in (winner):
                 print(i + 1, end = ' ')
             print("wins")

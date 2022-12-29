@@ -71,9 +71,11 @@ for i in range(0, 52):
 initial_hand_value_list = sorted(initial_hand_value_dict.items(), key = lambda x: x[1], reverse = True)
 initial_hand_value_dict = {}
 t = len(initial_hand_value_list)
+z = 0
 for hand, value in initial_hand_value_list:
-    initial_hand_value_dict[hand] = (t - len(initial_hand_value_dict)) / t
+    initial_hand_value_dict[hand] = (t - z) / t
     initial_hand_value_dict[(hand[1], hand[0])] = initial_hand_value_dict[hand]
+    z += 1
 
 def My_PokerHandEval(m0, m1, c1, c2, c3, c4=-1, c5=-1):
     return handle.My_PokerHandEval(m0, m1, c1, c2, c3, c4, c5)
@@ -94,7 +96,10 @@ def convert_card_to_value(card):
 def initial_hand_value(player_cards):
     return initial_hand_value_dict[(convert_card_to_value(player_cards[0]), convert_card_to_value(player_cards[1]))]
 
-def bet_strategy_basic(player_cards,
+
+# all in if value good enough
+def bet_strategy_basic(name,
+                       player_cards,
                        common_cards,
                        small_blind_value,
                         need_bet_value,
@@ -104,11 +109,68 @@ def bet_strategy_basic(player_cards,
                         number_of_players_playing,
                         players_playing,
                         player_bet_values=None):
-    assert need_bet_value > 0
+    if len(common_cards) == 0:
+        hand_value = initial_hand_value(player_cards)
+    else:
+        hand_value = My_PokerHandEvalOnlyValue(*[convert_card_to_value(x) // 4 for x in player_cards],
+                                               *[convert_card_to_value(x) // 4 for x in common_cards])
+    if gameUtil.DEBUG:
+        print(f"{name}: hand_value = ", hand_value, "stage = ", len(common_cards))
+    if hand_value > 0.66:
+        return 1000
+    return 0
 
+# better calculates current bets, potential gains and stuff.
+def bet_strategy_basicp(name,
+                        player_cards,
+                        common_cards,
+                        small_blind_value,
+                        need_bet_value,
+                        already_bet_value,
+                        current_pot_value,
+                        number_of_players,
+                        number_of_players_playing,
+                        players_playing,
+                        player_bet_values=None):
+    average_lose = small_blind_value * 3 / number_of_players
+    bet_limit = {
+        0: 50,
+        3: 200,
+        4: 500,
+        5: 1000,
+    }[len(common_cards)]
+    if len(common_cards) == 0:
+        hand_value = initial_hand_value(player_cards)
+    else:
+        hand_value = My_PokerHandEvalOnlyValue(*[convert_card_to_value(x) // 4 for x in player_cards],
+                                               *[convert_card_to_value(x) // 4 for x in common_cards])
+    if gameUtil.DEBUG:
+        print(f"{name}: hand_value = ", hand_value, "stage = ", len(common_cards))
+    # to win current_pot_value, what would be the bet value?
+    projected_pot_win = number_of_players_playing * bet_limit * ((max(0, hand_value - 0.5) / 0.5) ** 0.5) * 1.2
+    attempt_bet = projected_pot_win // number_of_players_playing - already_bet_value
+    if gameUtil.DEBUG:
+        print(f"{name}: projected_pot_win = ", projected_pot_win, "attempt_bet = ", attempt_bet, "need_bet_value = ", need_bet_value)
+    if attempt_bet < need_bet_value - 10: # some margin
+        return 0
+    attempt_bet = max(attempt_bet, need_bet_value)
+    return attempt_bet
 
+# stored previous stratedies, learns to bet and bluff
+def bet_strategy_basicpp(name,
+                         player_cards,
+                        common_cards,
+                        small_blind_value,
+                        need_bet_value,
+                        already_bet_value,
+                        current_pot_value,
+                        number_of_players,
+                        number_of_players_playing,
+                        players_playing,
+                        player_bet_values=None):
     potential_win = current_pot_value - already_bet_value
     average_lose = small_blind_value * 3 / number_of_players
+    max_bet = gameUtil.BET_LIMIT_CEILING - already_bet_value
     if len(common_cards) == 0:
         # special case
         hand_value = initial_hand_value(player_cards)
@@ -116,7 +178,7 @@ def bet_strategy_basic(player_cards,
         hand_value = My_PokerHandEvalOnlyValue(*[convert_card_to_value(x) // 4 for x in player_cards],
                                                *[convert_card_to_value(x) // 4 for x in common_cards])
     if gameUtil.DEBUG:
-        print("kiBot: hand_value = ", hand_value, "stage = ", len(common_cards))
+        print(f"{name}: hand_value = ", hand_value, "stage = ", len(common_cards))
     if hand_value > 0.66:
         return 1000
     return 0
@@ -155,7 +217,6 @@ def bet_strategy_basic(player_cards,
     # if gameUtil.DEBUG:
     #     print("kibot basicp", "fold")
     # return 0
-
 
 
 if __name__ == '__main__':
@@ -201,18 +262,30 @@ class kiBot():
         if number_of_players_playing == 1:
             assert need_bet_value == 0
             return 1
-        if need_bet_value == 0:
-            return 0
-        if self.strategy == "basic":
-            player_bet_values = None
-            if len(common_cards) == 3:
-                player_bet_values = self.player_bet_values_round_1
-            elif len(common_cards) == 4:
-                player_bet_values = self.player_bet_values_round_2
-            elif len(common_cards) == 5:
-                player_bet_values = self.player_bet_values_round_3
+        player_bet_values = None
+        if len(common_cards) == 3:
+            player_bet_values = self.player_bet_values_round_1
+        elif len(common_cards) == 4:
+            player_bet_values = self.player_bet_values_round_2
+        elif len(common_cards) == 5:
+            player_bet_values = self.player_bet_values_round_3
 
-            return bet_strategy_basic(self.player_cards,
+        if self.strategy == "basic":
+            return bet_strategy_basic(self.__name__(),
+                                        self.player_cards,
+                                        common_cards,
+                                        small_blind_value,
+                                        need_bet_value,
+                                        data['player bets'][self.player_index],
+                                        sum(data['player bets']),
+                                        number_of_players,
+                                        number_of_players_playing,
+                                        players_playing,
+                                        player_bet_values
+                                        )
+        elif self.strategy == "basicp":
+            return bet_strategy_basicp(self.__name__(),
+                                        self.player_cards,
                                         common_cards,
                                         small_blind_value,
                                         need_bet_value,
@@ -263,5 +336,8 @@ class kiBot():
             self.player_bet_values_round_2 = [[] for _ in range(number_of_players)]
             self.player_bet_values_round_3 = [[] for _ in range(number_of_players)]
         return 0
+
+    def __name__(self):
+        return "kiBot" + "-" + self.strategy + "-" + str(self.player_index + 1)
     def end_round(self):
         return
