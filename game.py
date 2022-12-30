@@ -172,7 +172,7 @@ for round_number in range(ROUND_NUMBER):
         for i in range(len(winner)):
             round_information['player money'][winner[i]] += sum(round_information['player bets']) // len(winner)
         for i in range(len(players)):
-            players[i].revealed_card(player_card_combination)
+            players[i].revealed_card(copy.deepcopy(player_card_combination))
         if DEBUG:
             print("player", end = ' ')
             for i in (winner):

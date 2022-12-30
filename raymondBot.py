@@ -21,6 +21,49 @@ class raymondBot():
             self.bettinghistory.append([[],[],[]]) #power for flop turn and river
         self.round_number = 0
         self.fold = [0, 0, 0, 0]
+    def checkHand(self, player_card):# without suits
+        winningplayer = []
+        if(len(winningplayer) == 0):
+            for i in player_card:
+                a,b = gameUtil.fourOfAKind(i[1])
+                if a:
+                    winningplayer.append((i[0], b))
+        if(len(winningplayer) == 0):
+            for i in player_card:
+                a,b = gameUtil.checkFullHouse(i[1])
+                if a:
+                    winningplayer.append((i[0], b))
+        if(len(winningplayer) == 0):
+            for i in player_card:
+                a,b = gameUtil.checkStraight(i[1])
+                if a:
+                    winningplayer.append((i[0], b))
+        if(len(winningplayer) == 0):
+            for i in player_card:
+                a,b = gameUtil.checkThreeOfAKind(i[1])
+                if a:
+                    winningplayer.append((i[0], b))
+        if(len(winningplayer) == 0):
+            for i in player_card:
+                a,b = gameUtil.checkTwoPair(i[1])
+                if a:
+                    winningplayer.append((i[0], b))
+        if(len(winningplayer) == 0):
+            for i in player_card:
+                a,b = gameUtil.checkPair(i[1])
+                if a:
+                    winningplayer.append((i[0], b))
+        if(len(winningplayer) == 0):
+            for i in player_card:
+                a,b = gameUtil.checkHighCard(i[1])
+                if a:
+                    winningplayer.append((i[0], b))
+        player_won = []
+        player_won_value = max([gameUtil.cardToNumberValue(winningplayer[i][1]) for i in range(len(winningplayer))])
+        for i in range(len(winningplayer)):
+            if(gameUtil.cardToNumberValue(winningplayer[i][1]) >= player_won_value):
+                player_won.append(winningplayer[i][0])
+        return player_won
     def init_deck(self):
         self.deck = []
         for i in range(52):
@@ -41,28 +84,24 @@ class raymondBot():
                 if(number_hand_value[0] >= i[0] and number_hand_value[1] > i[1]):
                     return True
         return True
-    def stage01(self):#flop return loss and total
-        total = 0
+    def stage01(self, mycard, community):#flop return loss and total
         loss = 0
-        for i in range(len(self.deck)):
-            for j in range(len(self.deck)):
-                for k in range(len(self.deck)):
-                    if i != j != k:
-                        my_card = sorted(self.hand + self.community_cards + [self.deck[k]], key=lambda x: x[0], reverse=True)
-                        opponent = sorted(self.community_cards + [self.deck[i], self.deck[j], self.deck[k]], key=lambda x: x[0], reverse=True)
-                        print(self.hand, self.community_cards, [self.deck[i], self.deck[j], self.deck[k]])
-                        loss += gameUtil.checkHand([(0, my_card),(1, opponent)])[0] == 1
-        return loss, total
-    def evalStage2(self):#river
-        total = 0
+        for i in range(1, 14):
+            for j in range(1, 14):
+                for k in range(1, 14):
+                    my_card = sorted(mycard + community + [(k, 4)], key=lambda x: x[0], reverse=True)
+                    opponent = sorted(community + [(i,4), (j, 4), (k, 4)], key=lambda x: x[0], reverse=True)
+                    loss += self.checkHand([(0, my_card), (1, opponent)])[0] == 1
+        return loss
+    def evalStage2(self, mycard, community):#river
         loss = 0
         for i in range(len(self.deck)):
             for j in range(len(self.deck)):
                 if i != j:
-                    my_card = sorted(self.hand + self.community_cards, key=lambda x: x[0], reverse=True)
-                    opponent = sorted(self.community_cards + [self.deck[i], self.deck[j]], key=lambda x: x[0], reverse=True)
+                    my_card = sorted(mycard+ community, key=lambda x: x[0], reverse=True)
+                    opponent = sorted(community + [self.deck[i], self.deck[j]], key=lambda x: x[0], reverse=True)
                     loss += gameUtil.checkHand([(0, my_card),(1, opponent)])[0] == 1
-        return loss, total
+        return loss
     def starting_hand(self, cards):
         self.round_number += 1
         self.hand = cards
@@ -77,19 +116,19 @@ class raymondBot():
         if(data['stage'] == 0):
             if(data['player bets'][self.player_index] <= 20):
                 if(self.evaluate_preflop_hand()):
-                    return max(data['player bets']) - data['player bets'][self.player_index] + 1
+                    return max(data['player bets']) - data['player bets'][self.player_index]
                 else:
                     return 0
             else:
                 return max(data['player bets']) - data['player bets'][self.player_index]
         if(data['stage'] == 1 or data['stage'] == 2):
-            value = self.stage01()
+            value = self.stage01(self.hand, self.community_cards)
             conitnuebetting = True
             double = True
             for i in range(len(data['player playing'])):
                 if data['player playing'][i]:
-                    if len(self.history[i][data['stage'] - 1]) != 0:
-                        mean_value = statistics.mean(self.history[i][data['stage'] - 1])
+                    if len(self.bettinghistory[i][data['stage'] - 1]) != 0:
+                        mean_value = statistics.mean(self.bettinghistory[i][data['stage'] - 1])
                         if(value * 0.9 > mean_value ):
                             conitnuebetting = False
                         if(value * 2 < mean_value):
@@ -98,44 +137,39 @@ class raymondBot():
                         return max(data['player bets']) - data['player bets'][self.player_index]
             if conitnuebetting:
                 if double:
-                    return sum(data['player betting'] - data['player bets'][self.player_index])
+                    return sum(data['player bets']) - data['player bets'][self.player_index]
                 return max(data['player bets']) - data['player bets'][self.player_index]
             else:
                 return 0
         else:
-            value = self.evalStage2()
+            value = self.evalStage2(self.hand, self.community_cards)
             conitnuebetting = True
-            double = True
             for i in range(len(data['player playing'])):
                 if data['player playing'][i]:
-                    if len(self.history[i][data['stage'] - 1]) != 0:
-                        mean_value = statistics.mean(self.history[i][data['stage'] - 1])
+                    if len(self.bettinghistory[i][data['stage'] - 1]) != 0:
+                        mean_value = statistics.mean(self.bettinghistory[i][data['stage'] - 1])
                         if(value * 0.9 > mean_value ):
                             conitnuebetting = False
-                        if(value * 2 < mean_value):
-                            double = False
                     else:
                         return max(data['player bets']) - data['player bets'][self.player_index]
             if conitnuebetting:
-                if double:
-                    return sum(data['player betting'] - data['player bets'][self.player_index])
                 return max(data['player bets']) - data['player bets'][self.player_index]
             else:
                 return 0
     def watch_bet(self, data):
-        # self.community_cards = data['community cards']
+        self.community_cards = data['community card']
         return 0
     def revealed_card(self, card_array):
-        #review 
-        # for i in range(len(card_array)):
-        #     # self.init_deck()
-        #     opponent_hand = card_array[i][1]
-        #     opponent_index = card_array[i][0]
-        #     for j in self.community_cards:
-        #         opponent_hand.remove(j)
-            
-            # for j in range(3):
-                
+        #review
+        for i in range(len(card_array)):
+            self.init_deck()
+            opponent_hand = card_array[i][1]
+            opponent_index = card_array[i][0]
+            for j in self.community_cards:
+                opponent_hand.remove(j)
+            self.bettinghistory[opponent_index][0].append(self.stage01(opponent_hand , self.community_cards[0 : 3]))
+            self.bettinghistory[opponent_index][1].append(self.stage01(opponent_hand , self.community_cards[0 : 4]))
+            self.bettinghistory[opponent_index][2].append(self.evalStage2(opponent_hand , self.community_cards))
             #     opponent_power = self.chancePower(opponent_hand)
             #     opponent_hand.remove(self.community_cards[4 - j])
             #     self.bettinghistory[opponent_index][2 - j].append(opponent_power)
